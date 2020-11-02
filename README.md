@@ -1,21 +1,21 @@
 # 安装步骤（简）： 
-# (1)
+# (1) Ubuntu 软件包升级
 
 `sudo apt-get update`
 
-# (2)
+# (2)软件包安装
 ```bash
 sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget curl swig rsync quilt xsltproc libxml-parser-perl mercurial bzr ecj cvs 
 ```
 
-# (3)
+# (3)OpenWrt源码获取
 ```bash
 cd openwrt/
 ./scripts/feeds clean
 ./scripts/feeds update -a && ./scripts/feeds install -a
 ```
 
-(4)
+# (4)仓库打包重要APP插件
 ```bash
 git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 git clone https://github.com/kenzok8/small.git package/small
@@ -26,13 +26,13 @@ git clone https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
 git clone https://github.com/apollo-ng/luci-theme-darkmatter.git package/luci-theme-darkmatter
 ```
 
-# (5)
+# (5)固件配置及编译
 ```bash
 make menuconfig
 make -j4 download V=s && make -j4 V=s
 ```
 
-# (6) 附加
+# (6) 附加·单独编译IPK安装包
 
 `make package/.../*/compile V=s`
 
