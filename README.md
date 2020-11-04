@@ -20,11 +20,11 @@ cd openwrt/
 git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 git clone https://github.com/kenzok8/small.git package/small
 git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
-git clone https://github.com/KyleRicardo/802.1X-Evasi0n.git package/802.1X-Evasi0n
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
 git clone https://github.com/apollo-ng/luci-theme-darkmatter.git package/luci-theme-darkmatter
 ```
+PS: src-git kenzo https://github.com/kenzok8/openwrt-packages.git
 
 # (5)固件配置及编译
 ```bash
