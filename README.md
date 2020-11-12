@@ -37,7 +37,7 @@ make -j4 download V=s && make -j4 V=s
 `make package/.../*/compile V=s`
 
 # mentohust: 
-https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git 
+https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git ;
 https://github.com/KyleRicardo/802.1X-Evasi0n.git 
 
 # luci-app-mentohust: 
