@@ -51,7 +51,7 @@ https://github.com/BoringCat/luci-app-mentohust.git
 # luci-app-*:
 https://github.com/kenzok8/openwrt-packages.git 
 https://github.com/kenzok8/small.git
-//https://github.com/coolsnowwolf/lede.git 
+    //https://github.com/coolsnowwolf/lede.git 
 
 # luci-theme-*:
 https://github.com/rosywrt/luci-theme-rosy.git  
