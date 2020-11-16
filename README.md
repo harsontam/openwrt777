@@ -1,5 +1,5 @@
 # 安装步骤（简）： 
-# (1) Ubuntu 软件包升级
+# (1) Ubuntu 软件包更新
 
 `sudo apt-get update`
 
@@ -8,8 +8,9 @@
 sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget curl swig rsync quilt xsltproc libxml-parser-perl mercurial bzr ecj cvs 
 ```
 
-# (3)OpenWrt源码获取
+# (3)OpenWrt软件获取
 ```bash
+git clone https://github.com/openwrt/openwrt.git
 cd openwrt/
 ./scripts/feeds clean
 ./scripts/feeds update -a && ./scripts/feeds install -a
@@ -21,11 +22,13 @@ git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packag
 git clone https://github.com/kenzok8/small.git package/small
 git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
+git clone https://github.com/hepsontam/luci-app-filebrowser.git package/luci-app-filebrowser
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
 git clone https://github.com/apollo-ng/luci-theme-darkmatter.git package/luci-theme-darkmatter
 ```
 PS: src-git kenzo https://github.com/kenzok8/openwrt-packages.git
-
+    src-git diy1 https://github.com/xiaorouji/openwrt-package.git;master
+    
 # (5)固件配置及编译
 ```bash
 make menuconfig
