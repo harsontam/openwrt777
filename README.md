@@ -26,7 +26,7 @@ git clone https://github.com/hepsontam/luci-app-filebrowser.git package/luci-app
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
 git clone https://github.com/apollo-ng/luci-theme-darkmatter.git package/luci-theme-darkmatter
 ```
-PS: src-git kenzo https://github.com/kenzok8/openwrt-packages.git 
+PS: src-git kenzo https://github.com/kenzok8/openwrt-packages.git; 
     src-git diy1 https://github.com/xiaorouji/openwrt-package.git;master
     
 # (5)固件配置及编译
