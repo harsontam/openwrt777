@@ -25,6 +25,7 @@ git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-m
 git clone https://github.com/hepsontam/luci-app-filebrowser.git package/luci-app-filebrowser
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
 git clone https://github.com/apollo-ng/luci-theme-darkmatter.git package/luci-theme-darkmatter
+
 ```
 PS: src-git kenzo https://github.com/kenzok8/openwrt-packages.git; 
     src-git diy1 https://github.com/xiaorouji/openwrt-package.git;master
