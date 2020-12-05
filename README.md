@@ -20,6 +20,7 @@ cd openwrt/
 ```bash
 git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 git clone https://github.com/kenzok8/small.git package/small
+https://github.com/xiaorouji/openwrt-passwall.git
 git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
 git clone https://github.com/hepsontam/luci-app-filebrowser.git package/luci-app-filebrowser
