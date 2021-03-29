@@ -21,11 +21,11 @@ cd openwrt/
 git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 git clone https://github.com/kenzok8/small.git package/small
 git clone https://github.com/garypang13/luci-app-bypass.git package/bypass
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
 git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
 git clone https://github.com/hepsontam/luci-app-filebrowser.git package/luci-app-filebrowser
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
-git clone https://github.com/apollo-ng/luci-theme-darkmatter.git package/luci-theme-darkmatter
 
 ```
 PS: src-git kenzo https://github.com/kenzok8/openwrt-packages.git; 
